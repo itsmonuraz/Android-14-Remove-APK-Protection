@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
      F:
-      description: 'https://drive.google.com/uc?export=download&id=13slHokYgIlLflmssiasBXhuV0e6ffFgm
+      description: 'framework.jar"
 '
-      default: ''
+      default: 'https://drive.google.com/uc?export=download&id=13slHokYgIlLflmssiasBXhuV0e6ffFgm'
      S:
-      description: 'https://drive.google.com/uc?export=download&id=1guKc1vCO1aF_UbYtujZGVDjS9s82ZdgK
+      description: 'service.jar
 '
-      default: ''
+      default: 'https://drive.google.com/uc?export=download&id=1guKc1vCO1aF_UbYtujZGVDjS9s82ZdgK'
 jobs:
   build:
     runs-on: ubuntu-latest
